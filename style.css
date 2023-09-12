@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.tcontainer>h1 {
+    font: normal normal 900 80px/118px Heebo;
+}
+
+.tcontainer>p {
+    font: normal normal 500 20px/30px Heebo;
+}
+
+.hcontainer {
+    background-image:
+        linear-gradient(to bottom, #13E8F163, rgba(255, 255, 255, 0.507)), url("./images/hbgc.jpg");
+    height: 28.8125em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.techs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
