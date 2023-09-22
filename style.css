@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#topline {
+    width: 100%;
+    height: 3px;
+    background-color: #1AE0EC;
+}
 
 .tcontainer>h1 {
     font: normal normal 900 80px/118px Heebo;
@@ -29,6 +34,8 @@
     justify-content: center;
     align-items: center;
     width: 35%;
+    text-align: center;
+    color: #3A3A3A;
 }
 
 .techs {
@@ -36,4 +43,134 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    box-shadow: 0px 3px 6px #00000029;
 }
+
+.nav-cont {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    font: normal normal normal 25px/37px Heebo;
+    height: 80px;
+}
+
+.profile-con {
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: Fuggles;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 1.9;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    color: #2C2C2C;
+    padding: 15px;
+
+}
+
+a:hover,
+.mainlink {
+    color: #1AE0EC;
+}
+
+.mainlink {
+    font-weight: bold;
+}
+
+.onme {
+    width: 100%;
+    height: 715px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    font-family: Heebo;
+    color: #3A3A3A;
+}
+
+.onme-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.onme-text p {
+
+    font-size: 20px;
+}
+
+.onme-text h1 {
+
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.onme-btn {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: #1AE0EC;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.project-container {
+    width: 100%;
+    height: 1558px;
+    background-color: #F6F6F6;
+    border: 1px solid #000;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-text {
+    font-family: Heebo;
+    margin-top: 100px;
+    color: #3A3A3A;
+    width: 576px;
+}
+
+.project-text h1 {
+    font-weight: 900;
+}
+
+/* .project-text p {
+    font-weight: 400;
+    height: 58px;
+} */
