@@ -5,7 +5,6 @@
 }
 
 #topline {
-    width: 100%;
     height: 3px;
     background-color: #1AE0EC;
 }
@@ -38,6 +37,14 @@
     color: #3A3A3A;
 }
 
+.hamburger {
+    font-size: 0.8em;
+    color: #1AE0EC;
+    padding: 5px;
+    font-weight: bold;
+    display: none;
+}
+
 .techs {
     display: flex;
     justify-content: space-evenly;
@@ -46,8 +53,8 @@
     box-shadow: 0px 3px 6px #00000029;
 }
 
-.nav-cont {
-    width: 100vw;
+.nav-container {
+    width: 99vw;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -69,7 +76,8 @@ nav ul {
     height: 80px;
 }
 
-.profile-con {
+.profile-container,
+.profile-container p {
     margin-top: 5px;
     display: flex;
     gap: 20px;
@@ -92,7 +100,7 @@ nav ul li a {
 
 }
 
-a:hover,
+nav ul li a:hover,
 .mainlink {
     color: #1AE0EC;
 }
@@ -111,7 +119,7 @@ a:hover,
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 125px;
     font-family: Heebo;
     color: #3A3A3A;
 }
@@ -152,10 +160,10 @@ a:hover,
     width: 100%;
     height: 1558px;
     background-color: #F6F6F6;
-    border: 1px solid #000;
     display: flex;
-    align-items: start;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     text-align: center;
 }
 
@@ -168,9 +176,179 @@ a:hover,
 
 .project-text h1 {
     font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-/* .project-text p {
-    font-weight: 400;
+.project-text p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    width: 1600px;
+    margin-left: 290px;
+}
+
+.cards-content h3,
+.cards-content p,
+.cards-content a {
+    font-family: Heebo;
+    color: #3A3A3A;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.cards-content a {
+    background: #1AE0EC 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cards-content h3 {
+    font-size: 23px;
+}
+
+
+.project-card {
+    width: 405px;
+    height: 518px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 15px #00000029;
+    border-radius: 10px;
+}
+
+.cards-image img {
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 40px;
+}
+
+.cards-techs img {
+    width: 27px;
+    height: 26px;
+    margin-bottom: 20px;
+}
+
+
+.contact-me-container {
+    width: 100%;
+    height: 959px;
+    background-color: #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me-pic img {
+    margin-left: 76px;
+}
+
+.contact-me-form {
+    margin-top: 161px;
+    margin-right: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    direction: rtl;
+}
+
+.contact-me-form h1,
+.contact-me-form p,
+.contact-me-form label {
+
+    font-family: Heebo;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.contact-me-form form {
+    margin-top: 20px;
+}
+
+.contact-me-form input {
+    width: 548px;
+    height: 50px;
+    border: none;
+}
+
+#form-message {
+    width: 548px;
+    height: 100px;
+    resize: none;
+    margin-bottom: 0;
+}
+
+.contact-me-form p {
+    font-size: 20px;
+    width: 548px;
     height: 58px;
-} */
+}
+
+#form-btn {
+    height: 50px;
+    width: 166px;
+    background-color: #1AE0EC;
+    border: none;
+    font-family: Heebo;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #3A3A3A;
+}
+
+@media screen and (max-width:550px) {
+    .profile-container p {
+        display: none;
+    }
+
+    nav ul li {
+        display: none;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .profile-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tcontainer {
+        display: flex;
+    }
+
+    .profile-container {
+        display: flex;
+    }
+
+    .project-container {
+        width: 100%;
+        height: 3179px;
+        display: flex;
+    }
+
+    .cards-container {
+        width: 100%;
+        display: flex;
+    }
+
+    .cards-image img {
+        width: 300px;
+    }
+
+    .project-card {
+        width: 300px;
+    }
+
+
+    /* 
+    .tcontainer h1,
+    .tcontainer p {} */
+}
