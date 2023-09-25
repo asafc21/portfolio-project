@@ -261,11 +261,17 @@ nav ul li a:hover,
 .contact-me-form label {
     font-family: Heebo;
     color: #FFFFFF;
-    margin-bottom: 10px;
+}
+
+.contact-me-form h1,
+.contact-me-form p {
+    margin-bottom: 15px;
 }
 
 .contact-me-form form {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-me-form input {
@@ -282,6 +288,10 @@ nav ul li a:hover,
     border: none;
     outline: none;
     display: block;
+}
+
+.contact-me-form form div {
+    margin-bottom: 17.97px;
 }
 
 .contact-me-form p {
