@@ -562,7 +562,6 @@ footer {
 
     .sm-container {
         flex-wrap: wrap;
-        width: 50%;
     }
 
     .sm-container div img {
@@ -575,7 +574,7 @@ footer {
     .smedia4,
     .smedia5,
     .smedia6 {
-        width: 125px;
+        width: 50%;
         font-size: 15px;
     }
 
