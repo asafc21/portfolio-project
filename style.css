@@ -77,9 +77,12 @@ nav ul {
     height: 80px;
 }
 
+.profile-container img {
+    margin-top: 8px;
+}
+
 .profile-container,
 .profile-container p {
-    margin-top: 5px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -159,6 +162,7 @@ nav ul li a:hover,
     font-size: 20px;
     font-weight: 600;
     color: #3A3A3A;
+    text-decoration: none;
 }
 
 /* קצת עליי */
@@ -354,15 +358,39 @@ nav ul li a:hover,
     align-items: center;
     font-size: 14px;
     color: #2C2C2C;
+    font-family: Heebo;
+}
+
+.sm-container div img {
+    width: 41px;
+    height: 41px;
+    margin-bottom: 19.31px;
 }
 
 /* social media */
 
-.sm-container div img {
-    width: 29px;
-    height: 41px;
-    margin-bottom: 19.31px;
+/* footer */
+footer {
+    background-color: #000;
 }
+
+.footer-container {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+}
+
+.footer-container p {
+    color: #1AE0EC;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+/* footer */
 
 @media screen and (max-width:550px) {
     .profile-container p {
@@ -393,26 +421,84 @@ nav ul li a:hover,
     }
 
     .project-container {
-        width: 100%;
         height: 3179px;
         display: flex;
     }
 
-    .cards-container {
-        width: 100%;
-        display: flex;
-    }
 
     .cards-image img {
-        width: 300px;
+        width: 341px;
+
     }
 
     .project-card {
-        width: 300px;
+        width: 341px;
+        height: 437px;
+    }
+
+    .cards-content h3,
+    .cards-content p {
+        font-size: 16px;
+    }
+
+    .cards-content p {
+        margin-bottom: 0;
+    }
+
+    .cards-content a {
+        font-size: 10px;
+    }
+
+    .project-text h1 {
+        font-size: 25px;
+    }
+
+    .project-text p {
+        width: 349px;
+        height: 44px;
+        font-size: 15px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .onme {
+        height: 757px;
+    }
+
+    .onme-text {
+        width: 323px;
+    }
+
+    .onme-text p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .onme-text h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .onme-btn {
+        font-size: 10.5px;
+        padding: 10px 30px 10px 30px;
     }
 
 
-    /* 
-    .tcontainer h1,
-    .tcontainer p {} */
+    .tcontainer h1 {
+        font-size: 46px;
+        width: 233px;
+    }
+
+    .tcontainer p {
+        font-size: 15px;
+        width: 348px;
+    }
+
+
+
 }
