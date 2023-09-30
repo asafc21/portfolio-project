@@ -239,6 +239,8 @@ nav ul li a:hover,
 .cards-image img {
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 40px;
+    width: 405px;
+    height: 223px;
 }
 
 .cards-techs img {
@@ -391,7 +393,7 @@ footer {
 
 /* footer */
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:962px) {
     .profile-container p {
         display: none;
     }
@@ -427,6 +429,7 @@ footer {
 
     .cards-image img {
         width: 341px;
+        margin-bottom: 15px;
 
     }
 
