@@ -175,7 +175,7 @@ footer {
 
 /* footer */
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:962px) {
     .profile-container p {
         display: none;
     }
@@ -232,5 +232,9 @@ footer {
     .project-img img {
         width: 370px;
         height: 658px;
+    }
+
+    .techs img {
+        width: 80px;
     }
 }

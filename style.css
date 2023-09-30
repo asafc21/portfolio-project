@@ -54,6 +54,7 @@
     box-shadow: 0px 3px 6px #00000029;
 }
 
+
 .nav-container {
     height: 80px;
     display: flex;
@@ -393,7 +394,7 @@ footer {
 
 /* footer */
 
-@media screen and (max-width:962px) {
+@media screen and (max-width:1024px) {
     .profile-container p {
         display: none;
     }
@@ -422,8 +423,9 @@ footer {
     }
 
     .project-container {
-        height: 3179px;
+        height: 100%;
         display: flex;
+        padding-bottom: 25px;
     }
 
 
@@ -587,5 +589,9 @@ footer {
 
     .footer-container p {
         font-size: 9px;
+    }
+
+    .techs img {
+        width: 80px;
     }
 }
