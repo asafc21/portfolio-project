@@ -5,7 +5,7 @@
 }
 
 /* האדר + נאב + טכנולוגיות */
-#topline {
+.topline {
     height: 3px;
     background-color: #1AE0EC;
 }
@@ -16,6 +16,7 @@
 
 .tcontainer>p {
     font: normal normal 500 20px/30px Heebo;
+    direction: rtl;
 }
 
 .hcontainer {
@@ -141,14 +142,14 @@ nav ul li a:hover,
 }
 
 .onme-text p {
-
+    direction: rtl;
     font-size: 20px;
 }
 
 .onme-text h1 {
-
     font-size: 35px;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .onme-btn {
@@ -210,6 +211,7 @@ nav ul li a:hover,
 .cards-content h3,
 .cards-content p,
 .cards-content a {
+    direction: rtl;
     font-family: Heebo;
     color: #3A3A3A;
     text-decoration: none;
