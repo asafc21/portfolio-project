@@ -172,14 +172,13 @@ nav ul li a:hover,
 /* פרויקטים */
 
 .project-container {
-    width: 100%;
-    height: 1558px;
     background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     text-align: center;
+    padding-bottom: 182px;
 }
 
 .project-text {
@@ -396,7 +395,7 @@ footer {
 
 /* footer */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1300px) {
     .profile-container p {
         display: none;
     }
@@ -425,9 +424,7 @@ footer {
     }
 
     .project-container {
-        height: 100%;
-        display: flex;
-        padding-bottom: 25px;
+        padding-bottom: 123px;
     }
 
 
