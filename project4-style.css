@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* top area */
+
+
+.top-container {
+    height: 634px;
+    background-color: #0EE1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content {
+    width: 88%;
+    height: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.top-image-container {
+    height: 158px;
+    width: 160px;
+    position: fixed;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.top-image {
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.top-image img {
+    width: 54px;
+    height: 54px;
+    position: fixed;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.top-text {
+    direction: rtl;
+    font-family: Heebo;
+}
+
+.top-text p {
+    width: 787px;
+    font-size: 20px;
+}
+
+.top-text h1 {
+    font-size: 66px;
+    margin-bottom: 15px;
+}
+
+/* top area */
+
+/* cards */
+
+.cards {
+    height: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    width: 97%;
+    height: 74%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Heebo;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    height: 100%;
+    width: 24%;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+}
+
+.card-text h1 {
+    color: #0EE1E1;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.card-text p {
+    font-size: 15px;
+    width: 65%;
+    text-align: center;
+}
+
+.card1 .card-image img {
+    width: 42px;
+    height: 42px;
+}
+
+.card2 .card-image img {
+    width: 63px;
+    height: 43px;
+}
+
+.card3 .card-image img {
+    width: 44px;
+    height: 44px
+}
+
+.card4 .card-image img {
+    width: 55px;
+    height: 44px;
+}
+
+/* cards */
+
+/* form + image */
+
+.center-container {
+    height: 939px;
+    display: flex;
+}
+
+.form-image {
+    width: 100vw;
+    display: flex;
+}
+
+.center-form {
+    width: 43%;
+    background-color: #F0FFFF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-image {
+    width: 67%;
+    background-color: #0EE1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text {
+    height: 80%;
+    direction: rtl;
+    font-family: Heebo;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-text form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text h1 {
+    font-size: 46px;
+    margin-bottom: 11px;
+}
+
+.form-text p {
+    font-size: 15px;
+    width: 403px;
+    margin-bottom: 18px;
+}
+
+.form-text form input {
+    width: 426px;
+    height: 51px;
+    background-color: #E5EEFF;
+    border: none;
+    outline: none;
+}
+
+.form-text form label {
+    color: #2C2C2C;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-text form textarea {
+    resize: none;
+    background-color: #E5EEFF;
+    border: none;
+    width: 426px;
+    height: 145px;
+    outline: none;
+}
+
+#submit-btn {
+    background-color: #0EE1E1;
+    width: 427px;
+    height: 51px;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.underline {
+    height: 4px;
+    background-color: #0EE1E1;
+    margin-bottom: 21px;
+}
+
+/* form + image */
+
+/* social media */
+
+.bottom-container {
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-container {
+    width: 26%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smedia1,
+.smedia2,
+.smedia3,
+.smedia4 {
+    border-radius: 50%;
+    background-color: #0EE1E1;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.smedia1 img,
+.smedia2 img,
+.smedia3 img,
+.smedia4 img {
+    width: 32px;
+    height: 32px;
+}
+
+#bottomline {
+    background-color: #0EE1E1;
+    height: 19px;
+}
+
+/* social media */
+
+@media screen and (max-width:1300px) {
+    .top-image {
+        display: none;
+    }
+
+    .top-container {
+        height: 391px;
+    }
+
+    .text-image {
+        flex-direction: column-reverse;
+        align-items: end;
+        justify-content: space-evenly;
+    }
+
+    .text-image img {
+        width: 79px;
+        height: auto;
+    }
+
+    .top-text h1 {
+        font-size: 33px;
+    }
+
+    .top-text p {
+        font-size: 15px;
+        width: 283px;
+    }
+
+    .cards {
+        height: 1144px;
+    }
+
+    .cards-container {
+        height: 94%;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        height: 21%;
+        width: 100%;
+    }
+
+    .card-text h1 {
+        font-size: 22px;
+    }
+
+    .card-text p {
+        font-size: 15px;
+    }
+
+    .form-image {
+        flex-direction: column;
+    }
+
+    .center-form {
+        width: 100vw;
+        height: 612px;
+    }
+
+    .center-image {
+        width: 100vw;
+        height: 312px;
+    }
+
+    .center-image img {
+        width: 313px;
+        height: auto;
+    }
+
+    .form-text h1 {
+        font-size: 32px;
+    }
+
+    .form-text p {
+        font-size: 15px;
+        width: 291px;
+    }
+
+    .form-text form input {
+        width: 307px;
+        height: 37px;
+        background-color: #fff;
+    }
+
+    .form-text form textarea {
+        width: 307px;
+        height: 105px;
+        background-color: #fff;
+    }
+
+    #submit-btn {
+        width: 308px;
+        height: 37px;
+    }
+
+    .sm-container {
+        width: 63.7%;
+    }
+
+    .smedia1,
+    .smedia2,
+    .smedia3,
+    .smedia4 {
+        width: 46px;
+        height: 46px;
+    }
+
+    .smedia1 img,
+    .smedia2 img,
+    .smedia3 img,
+    .smedia4 img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #bottomline {
+        height: 10px;
+    }
+}
