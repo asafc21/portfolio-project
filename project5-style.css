@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 57%;
+    height: 69%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    text-align: left;
+    font-size: 160px;
+    font-family: Satisfy;
+    color: #fff;
+    text-shadow: 0px 0px 36px #00000087;
+    margin-bottom: 10px;
+}
+
+.content p,
+.content h3,
+.form-container form {
+    font-family: Varela Round;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 32px;
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.content p {
+    width: 93.4%;
+    font-size: 16px;
+    color: #F9F9F9;
+    text-align: center;
+    direction: rtl;
+    height: 60px;
+    margin-bottom: 4px;
+}
+
+.form-container form {
+    display: flex;
+    direction: rtl;
+    align-items: end;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.name-container,
+.email-container {
+    display: flex;
+    flex-direction: column;
+    color: #F9F9F9;
+    width: 38%;
+
+}
+
+.name-container {
+    margin-left: 37.5px;
+}
+
+.email-container {
+    margin-left: 20.6px;
+}
+
+.form-container form input {
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    margin-top: 3px;
+}
+
+#submit-btn {
+    width: 18%;
+    background-color: #fff;
+    font-family: Varela Round;
+    color: #1C1C1C;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1100px) {
+    .content h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 88%;
+        height: 65%;
+        justify-content: start;
+    }
+
+    .content h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .content p {
+        height: 120px;
+        margin-bottom: 22px;
+    }
+
+    .form-container form {
+        flex-direction: column;
+        align-items: start;
+        font-size: 13px;
+    }
+
+    .name-container,
+    .email-container {
+        width: 100%;
+    }
+
+    .name-container {
+        margin-bottom: 13px;
+    }
+
+    .email-container {
+        margin-bottom: 16px;
+    }
+
+    #submit-btn {
+        width: 100%;
+        color: #2823FD;
+        height: 33px;
+        font-size: 11px;
+    }
+}
