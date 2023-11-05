@@ -14,7 +14,6 @@ current technologies I know how to use
 Prerequisites:
 
 Web browser (e.g., Chrome, Firefox)
-
 Code editor (e.g., Visual Studio Code)
 
 
