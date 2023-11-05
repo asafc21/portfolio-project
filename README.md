@@ -8,7 +8,7 @@ This is my portfolio site, containing all current and future projects to introdu
 
 Features:
 
-current technologies I know how to use
+current technologies I know how to use and my way of implementing them. including responsiveness for mobile devices
 ...
 
 Prerequisites:
