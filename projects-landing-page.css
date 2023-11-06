@@ -5,7 +5,7 @@
 }
 
 /* נאב + האדר + טכנולוגיות */
-#topline {
+.topline {
     height: 3px;
     background-color: #1AE0EC;
 }
@@ -85,6 +85,8 @@ nav ul {
 
 .profile-container img {
     margin-top: 8px;
+    height: 62px;
+    width: 62px;
 }
 
 .profile-container,
