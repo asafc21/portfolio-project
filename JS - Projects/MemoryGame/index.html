@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="lives-score">
+      <h1>Lives: <span id="player-lives"></span></h1>
+      <h1>Score: <span id="player-score"></span></h1>
+    </div>
+    <div id="game-board"></div>
+    <div class="btn-msg">
+      <div class="msg"></div>
+      <button class="reset-btn" onclick="resetGame()">reset game</button>
+    </div>
+  </body>
+</html>

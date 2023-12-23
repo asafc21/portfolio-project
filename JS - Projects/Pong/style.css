@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Silkscreen";
+}
+
+#board {
+  background-color: black;
+  border-top: 5px solid #093661;
+  border-bottom: 5px solid #093661;
+}
+
+#instructions {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#instructions p {
+  width: 350px;
+}

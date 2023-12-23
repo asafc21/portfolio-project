@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  font-family: "Silkscreen", sans-serif;
+  background-color: #221c1c;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.vertical {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.horizontal {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.xSymbol {
+  font-size: 4rem;
+  color: red;
+}
+
+.oSymbol {
+  font-size: 4rem;
+  color: rgb(19, 208, 233);
+}
+
+#new-game-btn {
+  display: none;
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: rgb(20, 133, 86);
+  color: #000000;
+  font-family: "Silkscreen", sans-serif;
+  cursor: pointer;
+}
+
+.p1-wins {
+  font-size: 4rem;
+  color: red;
+}
+
+.p2-wins {
+  font-size: 4rem;
+  color: rgb(19, 208, 233);
+}
+
+.draw {
+  font-size: 4rem;
+  color: rgb(202, 12, 240);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #0fc75b;
+}
+
+#result {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+  td {
+    width: 70px;
+    height: 70px;
+  }
+  .xSymbol,
+  .oSymbol {
+    font-size: 2rem;
+  }
+  #result {
+    font-size: 1.5rem;
+  }
+
+  #new-game-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

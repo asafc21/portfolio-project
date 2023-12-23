@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: rgb(26, 147, 177);
+}
+
+.container {
+  width: 30vw;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  background-color: rgb(204, 24, 240);
+}
+
+.todos li {
+  background-color: rgb(202, 46, 202);
+}
+
+span,
+i {
+  color: #fff;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+#btn {
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: rgb(202, 46, 202);
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 50vw;
+  }
+}
